@@ -27,7 +27,9 @@ public class DataPrviderClass {
 	public static Object[][] VacuumCleanersAndFloorCare_DataProvider_Method() {
 		
 		try {
-			File file= new File("D:\\Selenium\\BBA Products.xlsx");
+			
+			String basepath = System.getProperty("user.dir");
+			File file= new File(basepath+"\\src\\test\\resources\\BBA Products.xlsx");
 			FileInputStream fs = new FileInputStream(file);
 			ExcelWBook=new XSSFWorkbook(fs);
 			ExcelWSheet= ExcelWBook.getSheet("Sheet1");

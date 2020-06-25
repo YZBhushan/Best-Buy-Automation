@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="323315" started-at="2020-06-25T09:52:46Z" finished-at="2020-06-25T09:58:09Z">
+  <suite name="Default suite" duration-ms="215235" started-at="2020-06-25T10:09:43Z" finished-at="2020-06-25T10:13:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="323315" started-at="2020-06-25T09:52:46Z" finished-at="2020-06-25T09:58:09Z">
+    <test name="Default test" duration-ms="215235" started-at="2020-06-25T10:09:43Z" finished-at="2020-06-25T10:13:18Z">
       <class name="resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests">
-        <test-method status="PASS" signature="initmethod()[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="initmethod" is-config="true" duration-ms="57070" started-at="2020-06-25T09:52:46Z" finished-at="2020-06-25T09:53:43Z">
+        <test-method status="PASS" signature="initmethod()[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="initmethod" is-config="true" duration-ms="43979" started-at="2020-06-25T10:09:43Z" finished-at="2020-06-25T10:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initmethod -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="32696" started-at="2020-06-25T09:53:54Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:54:26Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="16339" started-at="2020-06-25T10:10:36Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:10:52Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="26833" started-at="2020-06-25T09:54:26Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:54:53Z">
+        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="25947" started-at="2020-06-25T10:10:52Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:11:18Z">
           <params>
             <param index="0">
               <value>
@@ -40,10 +40,86 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:64)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="38210" started-at="2020-06-25T09:54:53Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:55:31Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="25524" started-at="2020-06-25T10:11:18Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="44302" started-at="2020-06-25T09:55:31Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:56:16Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="20458" started-at="2020-06-25T10:11:44Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:04Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="19508" started-at="2020-06-25T09:56:16Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:56:35Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="20407" started-at="2020-06-25T10:12:04Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:24Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="13672" started-at="2020-06-25T09:56:35Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:56:49Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="18110" started-at="2020-06-25T10:12:24Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:43Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="6523" started-at="2020-06-25T09:56:49Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:56:55Z">
+        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="2824" started-at="2020-06-25T10:12:43Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:45Z">
           <params>
             <param index="0">
               <value>
@@ -128,8 +204,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -138,8 +214,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -169,8 +245,8 @@ at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at com.sun.proxy.$Proxy12.click(Unknown Source)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:74)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:37)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:73)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -202,7 +278,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="20661" started-at="2020-06-25T09:56:56Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:57:16Z">
+        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="429" started-at="2020-06-25T10:12:45Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:46Z">
           <params>
             <param index="0">
               <value>
@@ -215,10 +291,89 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b170d72efe07cb59d0abc9b8775f45f0
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy8.getText(Unknown Source)
+at resonancia.bestbuy.customeutils.WebEventListner.beforeClickOn(WebEventListner.java:105)
+at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+at com.sun.proxy.$Proxy6.beforeClickOn(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:63)
+at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="26582" started-at="2020-06-25T09:57:16Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:57:43Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="11418" started-at="2020-06-25T10:12:46Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:12:57Z">
           <params>
             <param index="0">
               <value>
@@ -231,85 +386,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
-  (Session info: chrome=83.0.4103.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7
-*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
-  (Session info: chrome=83.0.4103.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7
-*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:65)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="FAIL" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="25335" started-at="2020-06-25T09:57:43Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T09:58:08Z">
+        <test-method status="PASS" signature="verifyAllProductList(java.lang.String, java.lang.String)[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="verifyAllProductList" duration-ms="15892" started-at="2020-06-25T10:12:57Z" data-provider="VacuumCleanersAndFloorCare_DataProvider" finished-at="2020-06-25T10:13:13Z">
           <params>
             <param index="0">
               <value>
@@ -322,85 +402,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
-  (Session info: chrome=83.0.4103.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7
-*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home, Furniture & Office')]"}
-  (Session info: chrome=83.0.4103.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q8RNTEC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\nikks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6480bfd5ea27b5ede8769f23d4df9ec7
-*** Element info: {Using=xpath, value=//button[contains(text(),'Home, Furniture & Office')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.home.VacuumCleanersAndFloorCare.clickOn(VacuumCleanersAndFloorCare.java:65)
-at resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests.verifyAllProductList(VacuumCleanersAndFloorCareTests.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductList -->
-        <test-method status="PASS" signature="quitmethod()[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="quitmethod" is-config="true" duration-ms="1027" started-at="2020-06-25T09:58:08Z" finished-at="2020-06-25T09:58:09Z">
+        <test-method status="PASS" signature="quitmethod()[pri:0, instance:resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests@6dde5c8c]" name="quitmethod" is-config="true" duration-ms="4955" started-at="2020-06-25T10:13:13Z" finished-at="2020-06-25T10:13:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitmethod -->

@@ -7,7 +7,7 @@
         <methods>
           <include name="quitmethod"/>
           <include name="initmethod"/>
-          <include name="verifyAllProductList" invocation-numbers="6 8 9"/>
+          <include name="verifyAllProductList" invocation-numbers="1 6 7"/>
         </methods>
       </class> <!-- resonancia.bestbuy.pages.products.homefurnitureandoffice.hometests.VacuumCleanersAndFloorCareTests -->
     </classes>
