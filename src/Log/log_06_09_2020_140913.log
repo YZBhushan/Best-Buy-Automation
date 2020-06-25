@@ -1,0 +1,12 @@
+2020-Jun-09 14:09:13,336 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Chrome launched
+2020-Jun-09 14:09:41,297 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Url https://www.bigbasket.com/ opened
+2020-Jun-09 14:09:59,016 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Configuration file loaded
+2020-Jun-09 14:09:59,051 [main] resonancia.bigbasket.pages.LoginPage 
+  INFO  Configuration file loaded
+2020-Jun-09 14:09:59,184 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just before finding element: By.cssSelector: a[qa="bbLogo"] on browser: ChromeDriver: chrome on WINDOWS (9c0f2d58a2be11502b0ea418e6a4c92c)
+2020-Jun-09 14:09:59,875 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just after finding element: By.cssSelector: a[qa="bbLogo"] inside [[ChromeDriver: chrome on WINDOWS (9c0f2d58a2be11502b0ea418e6a4c92c)] -> css selector: a[qa="bbLogo"]] Web element on browser: ChromeDriver: chrome on WINDOWS (9c0f2d58a2be11502b0ea418e6a4c92c)

@@ -1,0 +1,92 @@
+2020-Jun-25 12:11:09,519 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[@class="c-close-icon  c-modal-close-icon"] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //button[@class="c-close-icon  c-modal-close-icon"]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:10,394 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Close button
+2020-Jun-25 12:11:12,622 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 12:11:18,173 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[contains(text(),'Products')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:18,329 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[contains(text(),'Products')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //button[contains(text(),'Products')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:18,469 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Products button
+2020-Jun-25 12:11:19,006 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[contains(text(),'Home, Furniture & Office')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:19,104 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[contains(text(),'Home, Furniture & Office')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //button[contains(text(),'Home, Furniture & Office')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:19,242 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Home, Furniture & Office button
+2020-Jun-25 12:11:19,583 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[contains(text(),'Home')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:19,661 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[contains(text(),'Home')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[contains(text(),'Home')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:19,801 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Home div
+2020-Jun-25 12:11:20,113 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:20,173 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:20,290 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Vacuum Cleaners & Floor Care a
+2020-Jun-25 12:11:25,600 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //a[contains(text(),'Upright Vacuums')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:25,838 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //a[contains(text(),'Upright Vacuums')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //a[contains(text(),'Upright Vacuums')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:25,939 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Upright Vacuums a
+2020-Jun-25 12:11:40,373 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //span[@class='item-count'] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,288 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //span[@class='item-count'] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //span[@class='item-count']] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,400 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@class='left-side']//span on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,437 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,474 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@class='left-side']//span on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,503 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,568 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[contains(text(),'Products')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:41,882 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[contains(text(),'Products')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //button[contains(text(),'Products')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:42,274 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Products button
+2020-Jun-25 12:11:43,124 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[contains(text(),'Home, Furniture & Office')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:43,331 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[contains(text(),'Home, Furniture & Office')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //button[contains(text(),'Home, Furniture & Office')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:43,442 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Home, Furniture & Office button
+2020-Jun-25 12:11:45,615 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[contains(text(),'Home')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:46,152 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[contains(text(),'Home')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[contains(text(),'Home')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:46,234 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Home div
+2020-Jun-25 12:11:46,588 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:46,615 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:46,660 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Vacuum Cleaners & Floor Care a
+2020-Jun-25 12:11:49,773 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //a[contains(text(),'Canister Vacuums')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:50,128 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //a[contains(text(),'Canister Vacuums')] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //a[contains(text(),'Canister Vacuums')]] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:50,183 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Canister Vacuums a
+2020-Jun-25 12:11:53,284 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //span[@class='item-count'] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:54,718 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //span[@class='item-count'] inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //span[@class='item-count']] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:55,284 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@class='left-side']//span on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:57,197 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:59,476 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@class='left-side']//span on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:59,650 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)
+2020-Jun-25 12:11:59,834 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[contains(text(),'Products')] on browser: ChromeDriver: chrome on WINDOWS (55d3ed1784ec0d654b8380263ae90253)

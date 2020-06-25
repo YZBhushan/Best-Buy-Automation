@@ -1,0 +1,6 @@
+2020-Jun-25 09:04:33,172 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 09:04:39,560 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Chrome launched
+2020-Jun-25 09:04:53,718 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Url https://www.bestbuy.com/?intl=nosplash opened

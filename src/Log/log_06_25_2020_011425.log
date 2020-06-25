@@ -1,0 +1,14 @@
+2020-Jun-25 01:14:25,874 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 01:14:32,174 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Chrome launched
+2020-Jun-25 01:14:44,191 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Url https://www.bestbuy.com/?intl=nosplash opened
+2020-Jun-25 01:14:54,387 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 01:14:59,389 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[@class="c-close-icon  c-modal-close-icon"] on browser: ChromeDriver: chrome on WINDOWS (58967db0b2ff00defa23faff6f006d20)
+2020-Jun-25 01:14:59,469 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[@class="c-close-icon  c-modal-close-icon"] inside [[ChromeDriver: chrome on WINDOWS (58967db0b2ff00defa23faff6f006d20)] -> xpath: //button[@class="c-close-icon  c-modal-close-icon"]] Web element on browser: ChromeDriver: chrome on WINDOWS (58967db0b2ff00defa23faff6f006d20)
+2020-Jun-25 01:14:59,732 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Close button

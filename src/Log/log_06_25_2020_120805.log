@@ -1,0 +1,20 @@
+2020-Jun-25 12:08:05,512 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 12:08:16,603 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Chrome launched
+2020-Jun-25 12:08:23,264 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Url https://www.bestbuy.com/ opened
+2020-Jun-25 12:08:34,731 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 12:08:34,732 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] on browser: ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)
+2020-Jun-25 12:08:34,794 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] inside [[ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)] -> xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"]] Web element on browser: ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)
+2020-Jun-25 12:08:34,997 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on United States a
+2020-Jun-25 12:08:55,039 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //button[@class="c-close-icon  c-modal-close-icon"] on browser: ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)
+2020-Jun-25 12:08:56,402 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //button[@class="c-close-icon  c-modal-close-icon"] inside [[ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)] -> xpath: //button[@class="c-close-icon  c-modal-close-icon"]] Web element on browser: ChromeDriver: chrome on WINDOWS (965ecf4715864ecbb47f26eae12c8d87)
+2020-Jun-25 12:08:56,907 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on Close button

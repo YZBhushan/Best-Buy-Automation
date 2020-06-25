@@ -1,0 +1,18 @@
+2020-Jun-04 13:45:40,766 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Configuration file loaded
+2020-Jun-04 13:45:45,981 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Chrome launched
+2020-Jun-04 13:45:51,460 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Url https://www.bigbasket.com/ opened
+2020-Jun-04 13:45:58,798 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Configuration file loaded
+2020-Jun-04 13:45:58,800 [main] resonancia.bigbasket.pages.LoginPage 
+  INFO  Configuration file loaded
+2020-Jun-04 13:45:58,846 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just before finding element: By.xpath: //div[@id='headerControllerId']//a[3] on browser: ChromeDriver: chrome on WINDOWS (a310dd35189ec5e2814bdf8b4d8d46c7)
+2020-Jun-04 13:45:58,868 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just after finding element: By.xpath: //div[@id='headerControllerId']//a[3] inside [[ChromeDriver: chrome on WINDOWS (a310dd35189ec5e2814bdf8b4d8d46c7)] -> xpath: //div[@id='headerControllerId']//a[3]] Web element on browser: ChromeDriver: chrome on WINDOWS (a310dd35189ec5e2814bdf8b4d8d46c7)
+2020-Jun-04 13:45:58,904 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Trying to click on Login a
+2020-Jun-04 13:45:59,503 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Clicked on Login a

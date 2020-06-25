@@ -1,0 +1,14 @@
+2020-Jun-25 11:23:39,317 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 11:23:46,558 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Chrome launched
+2020-Jun-25 11:23:50,208 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Url https://www.bestbuy.com/ opened
+2020-Jun-25 11:23:58,034 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Configuration file loaded
+2020-Jun-25 11:23:58,036 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] on browser: ChromeDriver: chrome on WINDOWS (47d77d8e5f25aa8cff0bcfc1f6b603e0)
+2020-Jun-25 11:23:58,128 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] inside [[ChromeDriver: chrome on WINDOWS (47d77d8e5f25aa8cff0bcfc1f6b603e0)] -> xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"]] Web element on browser: ChromeDriver: chrome on WINDOWS (47d77d8e5f25aa8cff0bcfc1f6b603e0)
+2020-Jun-25 11:23:58,383 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Trying to click on United States a

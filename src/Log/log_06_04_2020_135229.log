@@ -1,0 +1,32 @@
+2020-Jun-04 13:52:29,416 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Configuration file loaded
+2020-Jun-04 13:52:35,016 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Chrome launched
+2020-Jun-04 13:52:41,199 [main] resonancia.bigbasket.homepagetests.LoginPageTests 
+  INFO  Url https://www.bigbasket.com/ opened
+2020-Jun-04 13:52:55,473 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Configuration file loaded
+2020-Jun-04 13:52:55,513 [main] resonancia.bigbasket.pages.LoginPage 
+  INFO  Configuration file loaded
+2020-Jun-04 13:52:55,632 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just before finding element: By.xpath: //div[@id='headerControllerId']//a[3] on browser: ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)
+2020-Jun-04 13:52:55,683 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just after finding element: By.xpath: //div[@id='headerControllerId']//a[3] inside [[ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)] -> xpath: //div[@id='headerControllerId']//a[3]] Web element on browser: ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)
+2020-Jun-04 13:52:55,749 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Trying to click on Login a
+2020-Jun-04 13:52:56,552 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Clicked on Login a
+2020-Jun-04 13:52:58,634 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just before finding element: By.xpath: //div[@class='modal-content']//div[@class='ng-scope']//button[@type='button'] on browser: ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)
+2020-Jun-04 13:52:58,664 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Just after finding element: By.xpath: //div[@class='modal-content']//div[@class='ng-scope']//button[@type='button'] inside [[ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)] -> xpath: //div[@class='modal-content']//div[@class='ng-scope']//button[@type='button']] Web element on browser: ChromeDriver: chrome on WINDOWS (1d7e0768cd78451098b95ca072f0c511)
+2020-Jun-04 13:52:58,688 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Trying to click on  button
+2020-Jun-04 13:52:58,836 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Clicked on  button
+2020-Jun-04 13:52:58,845 [main] resonancia.bigbasket.pages.LoginPage 
+  INFO  Switching to main window
+2020-Jun-04 13:52:58,869 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Trying to click on Login a
+2020-Jun-04 13:52:59,903 [main] resonancia.bigbasket.customeutils.WebEventListner 
+  INFO  Clicked on Login a
