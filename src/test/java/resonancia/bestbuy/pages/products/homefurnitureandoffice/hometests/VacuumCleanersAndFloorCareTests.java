@@ -26,12 +26,12 @@ public class VacuumCleanersAndFloorCareTests extends TestBase {
 	}
 
 	@Test(dataProvider = "VacuumCleanersAndFloorCare_DataProvider", dataProviderClass = DataPrviderClass.class)
-	public void verifyAllProductList(String ParentOfVaccume, String VaccumeName) {
+	public void verifyAllProductList(String homelist, String sublistfromhome) {
 		object.clickOn("productslist");
 		object.clickOn("homefurnitureandofficebtn");
 		object.clickOn("home");
-		object.clickOn(ParentOfVaccume.toLowerCase().replace(" ", "").replace("&", "and"));
-		object.clickOn(VaccumeName.toLowerCase().replace(" ", "").replace("&", "and"));
+		object.clickOn(homelist.toLowerCase().replace(" ", "").replace("&", "and"));
+		object.clickOn(sublistfromhome.toLowerCase().replace(" ", "").replace("&", "and"));
 		Assert.assertEquals(object.gettotalitemscount(), object.getactualelementdisplayedcount(),"Incorrect number of items displayed");
 	}
 

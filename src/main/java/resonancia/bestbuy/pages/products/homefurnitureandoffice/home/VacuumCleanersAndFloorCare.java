@@ -27,7 +27,9 @@ public class VacuumCleanersAndFloorCare extends TestBase{
 	
 	@FindBy(xpath="//li[contains(@class,'item-child-menu')]//a[contains(text(),'Vacuum Cleaners & Floor Care')]")
 	WebElement vacuumcleanersandfloorcare;
-		
+	
+	@FindBy(xpath="//a[contains(text(),'All Vacuums & Floor Care')]")
+	WebElement allvacuumsandfloorcare;
 	@FindBy(xpath="//a[contains(text(),'Upright Vacuums')]")
 	WebElement uprightvacuums;
 	@FindBy(xpath="//a[contains(text(),'Canister Vacuums')]")
@@ -74,6 +76,7 @@ public class VacuumCleanersAndFloorCare extends TestBase{
 		case "steammops" : steammops.click();break;
 		case "carpetcleaners" : carpetcleaners.click();break;
 		case "vacuumandfloorcareaccessories" : vacuumandfloorcareaccessories.click();break;
+		case "allvacuumsandfloorcare": allvacuumsandfloorcare.click();break;
 		
 		default:
 			break;

@@ -1,8 +1,6 @@
-2020-Jun-25 15:47:03,538 [main] resonancia.bestbuy.maindata.TestBase 
-  INFO  Configuration file loaded
-2020-Jun-25 15:47:03,546 [main] resonancia.bestbuy.maindata.TestBase 
-  INFO  Just before finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] on browser: ChromeDriver: chrome on WINDOWS (3806a317736eaf1f192733ec43d27f27)
-2020-Jun-25 15:47:03,603 [main] resonancia.bestbuy.maindata.TestBase 
-  INFO  Just after finding element: By.xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"] inside [[ChromeDriver: chrome on WINDOWS (3806a317736eaf1f192733ec43d27f27)] -> xpath: //div[@lang="en"]//div[@class="country-selection"]//a[@class="us-link"]] Web element on browser: ChromeDriver: chrome on WINDOWS (3806a317736eaf1f192733ec43d27f27)
-2020-Jun-25 15:47:03,754 [main] resonancia.bestbuy.maindata.TestBase 
-  INFO  Trying to click on United States a
+2020-Jun-25 15:55:00,711 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (6c0ddfea06082c1f661d14c601aef12d)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (6c0ddfea06082c1f661d14c601aef12d)
+2020-Jun-25 15:55:02,218 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just before finding element: By.xpath: //div[@class='left-side']//span on browser: ChromeDriver: chrome on WINDOWS (6c0ddfea06082c1f661d14c601aef12d)
+2020-Jun-25 15:55:04,621 [main] resonancia.bestbuy.maindata.TestBase 
+  INFO  Just after finding element: By.xpath: //div[@class='left-side']//span inside [[ChromeDriver: chrome on WINDOWS (6c0ddfea06082c1f661d14c601aef12d)] -> xpath: //div[@class='left-side']//span] Web element on browser: ChromeDriver: chrome on WINDOWS (6c0ddfea06082c1f661d14c601aef12d)
